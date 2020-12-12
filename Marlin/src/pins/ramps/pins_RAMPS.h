@@ -158,10 +158,10 @@
 // Temperature Sensors
 //
 #ifndef TEMP_0_PIN
-  #define TEMP_0_PIN       13   // Analog Input
+  #define TEMP_0_PIN       15   // Analog Input - Switched nozzle thermistor to T1 pin
 #endif
 #ifndef TEMP_1_PIN
-  #define TEMP_1_PIN       15   // Analog Input
+  #define TEMP_1_PIN       13   // Analog Input - T0 seems to be broken: it is registering a temperature of 234 all the time...
 #endif
 #ifndef TEMP_BED_PIN
   #define TEMP_BED_PIN     14   // Analog Input
